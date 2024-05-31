@@ -1,4 +1,4 @@
-import { useRoutes, Navigate } from 'react-router-dom';
+import { useRoutes } from 'react-router-dom';
 import MainRoutes from './MainRoutes';
 import AuthenticationRoutes from './AuthenticationRoutes';
 import { useEffect, useState } from 'react';
@@ -12,6 +12,5 @@ export default function ThemeRoutes() {
   }, []);
 
   const routes = isAuth ? [MainRoutes] : [AuthenticationRoutes];
-  const defaultPath = isAuth ? '/dashboard/default' : '/pages/login/login3';
-  return useRoutes([...routes, { path: '*', element: <Navigate to={defaultPath} replace /> }]);
+  return useRoutes(routes);
 }
