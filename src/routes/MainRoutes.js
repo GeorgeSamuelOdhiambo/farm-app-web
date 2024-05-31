@@ -36,96 +36,76 @@ const MainRoutes = {
       element: <DashboardDefault />
     },
     {
-      path: 'dashboard',
-      children: [
-        {
-          path: 'default',
-          element: <DashboardDefault />
-        }
-      ]
+      path: 'dashboard/default',
+      element: <DashboardDefault />
     },
     {
-      path: 'utils',
-      children: [
-        {
-          path: 'util-view-records',
-          element: <ViewFlockRecords />
-        },
-        {
-          path: 'util-color',
-          element: <UtilsIncubation />
-        },
-        {
-          path: 'util-feeding',
-          element: <FeedingData />
-        },
-        {
-          path: 'util-vaccination',
-          element: <UtilsTypography />
-        },
-        {
-          path: 'util-health-mortality',
-          element: <HealthRecord />
-        },
-        {
-          path: 'util-productivity',
-          element: <ProductivityRecord />
-        },
-        {
-          path: 'util-shadow',
-          element: <UtilsShadow />
-        }
-      ]
+      path: 'utils/util-view-records',
+      element: <ViewFlockRecords />
     },
     {
-      path: 'finance',
-      children: [
-        {
-          path: 'finance-others',
-          element: <OtherExpensesRecord />
-        },
-        {
-          path: 'finance-feeding',
-          element: <FeedsExpensesRecord />
-        },
-        {
-          path: 'finance-vaccination',
-          element: <VaccinationExpensesRecord />
-        },
-        {
-          path: 'finance-income',
-          element: <IncomeRecord />
-        },
-        {
-          path: 'finance-health-mortality',
-          element: <HealthRecord />
-        },
-        {
-          path: 'finance-productivity',
-          element: <ProductivityRecord />
-        },
-        {
-          path: 'finance-shadow',
-          element: <IncomeLandingPage />
-        },
-        {
-          path: 'finance-exp-landing-page',
-          element: <ExpensesLandingPage />
-        }
-      ]
+      path: 'utils/util-color',
+      element: <UtilsIncubation />
     },
     {
-      path: 'icons',
-      children: [
-        {
-          path: 'tabler-icons',
-          element: <UtilsTablerIcons />
-        },
-        {
-          path: 'material-icons',
-          element: <UtilsMaterialIcons />
-        }
-      ]
+      path: 'utils/util-feeding',
+      element: <FeedingData />
+    },
+    {
+      path: 'utils/util-vaccination',
+      element: <UtilsTypography />
+    },
+    {
+      path: 'utils/util-health-mortality',
+      element: <HealthRecord />
+    },
+    {
+      path: 'utils/util-productivity',
+      element: <ProductivityRecord />
+    },
+    {
+      path: 'utils/util-shadow',
+      element: <UtilsShadow />
+    },
+    {
+      path: 'finance/finance-others',
+      element: <OtherExpensesRecord />
+    },
+    {
+      path: 'finance/finance-feeding',
+      element: <FeedsExpensesRecord />
+    },
+    {
+      path: 'finance/finance-vaccination',
+      element: <VaccinationExpensesRecord />
+    },
+    {
+      path: 'finance/finance-income',
+      element: <IncomeRecord />
+    },
+    {
+      path: 'finance/finance-health-mortality',
+      element: <HealthRecord />
+    },
+    {
+      path: 'finance/finance-productivity',
+      element: <ProductivityRecord />
+    },
+    {
+      path: 'finance/finance-shadow',
+      element: <IncomeLandingPage />
+    },
+    {
+      path: 'finance/finance-exp-landing-page',
+      element: <ExpensesLandingPage />
+    },
+    {
+      path: 'icons/tabler-icons',
+      element: <UtilsTablerIcons />
+    },
+    {
+      path: 'icons/material-icons',
+      element: <UtilsMaterialIcons />
     },
     {
       path: 'sample-page',
