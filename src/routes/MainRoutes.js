@@ -36,79 +36,79 @@ const MainRoutes = {
       element: <DashboardDefault />
     },
     {
-      path: 'dashboard/default',
+      path: '/dashboard/default',
       element: <DashboardDefault />
     },
     {
-      path: 'utils/util-view-records',
+      path: '/utils/util-view-records',
       element: <ViewFlockRecords />
     },
     {
-      path: 'utils/util-color',
+      path: '/utils/util-color',
       element: <UtilsIncubation />
     },
     {
-      path: 'utils/util-feeding',
+      path: '/utils/util-feeding',
       element: <FeedingData />
     },
     {
-      path: 'utils/util-vaccination',
+      path: '/utils/util-vaccination',
       element: <UtilsTypography />
     },
     {
-      path: 'utils/util-health-mortality',
+      path: '/utils/util-health-mortality',
       element: <HealthRecord />
     },
     {
-      path: 'utils/util-productivity',
+      path: '/utils/util-productivity',
       element: <ProductivityRecord />
     },
     {
-      path: 'utils/util-shadow',
+      path: '/utils/util-shadow',
       element: <UtilsShadow />
     },
     {
-      path: 'finance/finance-others',
+      path: '/finance/finance-others',
       element: <OtherExpensesRecord />
     },
     {
-      path: 'finance/finance-feeding',
+      path: '/finance/finance-feeding',
       element: <FeedsExpensesRecord />
     },
     {
-      path: 'finance/finance-vaccination',
+      path: '/finance/finance-vaccination',
       element: <VaccinationExpensesRecord />
     },
     {
-      path: 'finance/finance-income',
+      path: '/finance/finance-income',
       element: <IncomeRecord />
     },
     {
-      path: 'finance/finance-health-mortality',
+      path: '/finance/finance-health-mortality',
       element: <HealthRecord />
     },
     {
-      path: 'finance/finance-productivity',
+      path: '/finance/finance-productivity',
       element: <ProductivityRecord />
     },
     {
-      path: 'finance/finance-shadow',
+      path: '/finance/finance-shadow',
       element: <IncomeLandingPage />
     },
     {
-      path: 'finance/finance-exp-landing-page',
+      path: '/finance/finance-exp-landing-page',
       element: <ExpensesLandingPage />
     },
     {
-      path: 'icons/tabler-icons',
+      path: '/icons/tabler-icons',
       element: <UtilsTablerIcons />
     },
     {
-      path: 'icons/material-icons',
+      path: '/icons/material-icons',
       element: <UtilsMaterialIcons />
     },
     {
-      path: 'sample-page',
+      path: '/sample-page',
       element: <SamplePage />
     }
   ]
